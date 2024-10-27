@@ -1,0 +1,100 @@
+.google-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .google-form h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #021635; /* Dark teal for the heading */
+  }
+  
+  .google-form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #010f36; /* Dark teal for labels */
+  }
+  
+  .google-form input,
+  .google-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #0a024b; /* Dark teal border */
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .google-form input:focus,
+  .google-form textarea:focus {
+    border-color: #0d034a; /* Darker teal on focus */
+    outline: none;
+  }
+  
+  .google-form input[type="checkbox"],
+  .google-form input[type="radio"] {
+    width: auto;
+    margin-right: 10px;
+  }
+  
+  .google-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #ff9800; /* Orange button */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition */
+  }
+  
+  .google-form button:hover {
+    background-color: #fb8c00; /* Darker orange on hover */
+  }
+  
+  .google-form button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .checkbox-container {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .preferred-days {
+    margin-top: 10px;
+  }
+  
+  .radio-container {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 20px; /* Adds space between options */
+  }
+  
+  .radio-container input[type="radio"] {
+    margin-right: 5px; /* Space between radio button and label */
+  }
+  
+  .radio-group {
+    margin-top: 10px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 480px) {
+    .google-form {
+      padding: 10px;
+    }
+    .google-form h1 {
+      font-size: 1.5em;
+    }
+  }
+  

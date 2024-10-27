@@ -1,0 +1,7 @@
+footer {
+    padding: 20px 1px; /* Adjust padding to control the space inside the footer */
+    height: auto; /* Set height to auto to let content dictate the height */
+    /* Optionally, set a maximum height */
+    max-height: 25px; /* Set a maximum height */
+  }
+  

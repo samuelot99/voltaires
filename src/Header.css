@@ -1,0 +1,52 @@
+
+
+.header {
+    position: relative;
+    height: 100vh;
+    background-image: url('C:\Users\ss\majibenders\src\topmajibenders1.png'); /* Replace with your image URL */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .header-content {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2em;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Segoe UI', sans-serif;
+  
+  }
+
+ 
+  
+  .logo {
+    max-width: 200px;
+    margin-bottom: 1em;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 1em;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
